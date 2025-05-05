@@ -1,6 +1,7 @@
 import MessageBox from "../message-box";
 import VideoCard from "../video-card";
 import doodstream from "@/lib/doodstream";
+import Script from "next/script";
 
 const SearchCardList = async ({
     query,
