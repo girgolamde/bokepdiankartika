@@ -8,7 +8,7 @@ const Center = ({ children }: { children: React.ReactNode }) => {
       dangerouslySetInnerHTML={{
          __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,
       }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="112"></ins>
+   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
             {children}
         </div>
     );
