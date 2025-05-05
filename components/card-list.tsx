@@ -26,7 +26,7 @@ const CardList = async ({
     }
 
     return (
-        <div className="flex flex-col"><ins id="1078976" data-width="300" data-height="112"></ins>
+        <div className="flex flex-col">
             <div className="grid grid-cols-2 gap-0 md:grid-cols-3 md:gap-3 xl:grid-cols-4">
                 {data.result.files.map((video: any) => {
                     return (
