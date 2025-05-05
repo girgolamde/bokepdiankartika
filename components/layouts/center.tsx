@@ -1,4 +1,5 @@
 import React from "react";
+import Script from "next/script";
 
 const Center = ({ children }: { children: React.ReactNode }) => {
     return (
