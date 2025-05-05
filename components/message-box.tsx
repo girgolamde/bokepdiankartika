@@ -52,7 +52,11 @@ const MessageBox = ({
                         ></InfoIcon>
                         {title}
                     </CardTitle>
-                </CardHeader>
+                </CardHeader><script
+      dangerouslySetInnerHTML={{
+         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1058210})`,
+      }}
+   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1058210" data-width="300" data-height="262"></ins>
                 <CardContent className="text-center">{children}</CardContent>
                 <CardFooter className="flex flex-col items-center">
                     {countdown && (
