@@ -12,7 +12,11 @@ const SearchCardList = async ({
     const data = await doodstream.search({ query });
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col"><script
+      dangerouslySetInnerHTML={{
+         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,
+      }}
+   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="112"></ins>
             {banner && (
                 <div className="my-6 mb-8 text-center">
                     <h1 className="text-xs md:text-sm font-bold text-gray-600 uppercase tracking-wider">
